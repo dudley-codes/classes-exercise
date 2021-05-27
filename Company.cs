@@ -37,7 +37,7 @@ namespace Classes
     {
       foreach (Employee employee in currentEmployees)
       {
-        Console.WriteLine($"{employee.FirstName} {employee.LastName} works for {Name} as {employee.Title} since {employee.StartDate}");
+        Console.WriteLine($"{employee.FirstName} {employee.LastName} works for {Name} as {employee.Title} since {employee.StartDate.ToString()}");
       }
     }
   }

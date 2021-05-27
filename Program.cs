@@ -8,11 +8,11 @@ namespace Classes
     static void Main(string[] args)
     {
       // Create an instance of a company. Name it whatever you like.
-      var acme = new Company("Acme, Inc", new DateTime(4 / 20 / 50));
+      var acme = new Company("Acme, Inc", new DateTime(1950, 1, 3));
       // Create three employees
-      acme.addEmployee(new Employee("Lizzie", "Borden", "lumberjack", new DateTime(1 / 1 / 52)));
-      acme.addEmployee(new Employee("Jack", "The Ripper", "barber", new DateTime(2 / 1 / 75)));
-      acme.addEmployee(new Employee("Jeffrey", "Dahmer", "chef", new DateTime(6 / 6 / 66)));
+      acme.addEmployee(new Employee("Lizzie", "Borden", "lumberjack", new DateTime(1952, 1, 1)));
+      acme.addEmployee(new Employee("Jack", "The Ripper", "barber", new DateTime(1975, 1, 1)));
+      acme.addEmployee(new Employee("Jeffrey", "Dahmer", "chef", new DateTime(1966, 6, 6)));
 
       // Assign the employees to the company
       // List<Employee> currentEmployees = new List<Employee>();
